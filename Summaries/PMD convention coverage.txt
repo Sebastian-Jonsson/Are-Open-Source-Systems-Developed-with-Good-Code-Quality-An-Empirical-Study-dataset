@@ -1,0 +1,132 @@
+Convention coverage summary:
+3.1(Assumption that must have a package)
+5.1.1(Only checks if method is empty as well)
+6.1
+7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9, 
+9.packages, 9.variables, 9.methods, 9.classes, 9.interfaces
+10.5.2
+
+11.1(not applicable)
+
+
+
+https://pmd.github.io/latest/pmd_rules_java_errorprone.html#suspiciousoctalescape
+
+Violation identifications:
+UnnecessaryModifier - Not applicable.
+ProperCloneImplementation - Not applicable.
+DoubleCheckedLocking - Not applicable.
+AvoidCatchingThrowable - Not applicable.
+AvoidProtectedMethodInFinalClassNotExtending - Not applicable.
+EmptyFinallyBlock - 7.9
+ForLoopShouldBeWhileLoop - Not applicable.
+AvoidDollarSigns - Not applicable.
+EmptyIfStmt - 7.4
+UselessOverridingMethod - Not applicable.
+MissingStaticMethodInNonInstantiatableClass - Not applicable.
+UnnecessaryConstructor - Not applicable. 11.1?
+AvoidAccessibilityAlteration - Not applicable.
+EmptyWhileStmt - 7.6
+LocalVariableNamingConventions - 9.variables
+ClassNamingConventions - 9.classes, 9.interfaces,
+UnconditionalIfStatement - 7.4 - always true/false
+UseStandardCharsets - Not applicable.
+UnnecessaryConversionTemporary - Not applicable.
+UnusedPrivateField - Not applicable.
+ReturnFromFinallyBlock - return is a statement which is allowed.
+CheckSkipResult - Not applicable.
+UseLocaleWithCaseConversions - Not applicable.
+DoubleBraceInitialization - Not applicable.
+DefaultLabelNotLastInSwitchStmt - 7.8
+FinalParameterInAbstractMethod - Not applicable.
+JumbledIncrementer - Not applicable.
+SingularField - Not applicable.
+UseCollectionIsEmpty - Not applicable.
+AvoidDecimalLiteralsInBigDecimalConstructor - Not applicable.
+ClassWithOnlyPrivateConstructorsShouldBeFinal - Not applicable.
+AvoidUsingHardCodedIP - Not applicable.
+ForLoopCanBeForeach - Not applicable.
+DontUseFloatTypeForLoopIndices - Not applicable.
+AvoidUsingVolatile - Not applicable.
+UselessParentheses - Not applicable.
+SimplifiedTernary - 10.5.2, 7.3
+ControlStatementBraces - 7.2, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9
+AssignmentInOperand - Not applicable.
+AvoidBranchingStatementAsLastInLoop - Not applicable.
+InstantiationToGetClass - Not applicable.
+NonCaseLabelInSwitchStatement - Not applicable.
+PrimitiveWrapperInstantiation - Not applicable.
+ProperLogger - Not applicable.
+OverrideBothEqualsAndHashcode - Not applicable.
+FormalParameterNamingConventions - 9.variables, 
+SuspiciousOctalEscape - The Java language specification (section 3.10.6)
+EmptyInitializer - Not applicable.
+AvoidUsingOctalValues - Not applicable.
+ReturnEmptyCollectionRatherThanNull - Not applicable.
+AvoidProtectedFieldInFinalClass - Not applicable.
+BrokenNullCheck - Not applicable.
+UnnecessaryAnnotationValueElement - Not applicable.
+NonStaticInitializer - Not applicable.
+LiteralsFirstInComparisons - Not applicable.
+AssignmentToNonFinalStatic - Not applicable.
+SuspiciousEqualsMethodName - Not applicable.
+ExtendsObject - Not applicable.
+UselessQualifiedThis - Not applicable.
+AvoidInstanceofChecksInCatchClause - Not applicable.
+AbstractClassWithoutAnyMethod - Not applicable.
+CheckResultSet - Not applicable.
+OptimizableToArrayCall - Not applicable.
+UnusedNullCheckInEquals - Not applicable.
+UncommentedEmptyMethodBody - 5.1.1 (Only checks if method is empty as well.)
+EmptyTryBlock - 7.9
+IdenticalCatchBranches - 7.9
+ClassCastExceptionWithToArray - Not applicable.
+UnnecessaryReturn - Not applicable.
+EmptyCatchBlock - 7.9
+UseUtilityClass - Not applicable.
+UseEqualsToCompareStrings - Not applicable.
+UnusedPrivateMethod - Not applicable.
+DoNotExtendJavaLangError - Not applicable.
+AvoidThreadGroup - Not applicable.
+BigIntegerInstantiation - Not applicable.
+DoNotExtendJavaLangThrowable - Not applicable.
+CloneMethodMustImplementCloneable - Not applicable.
+MethodNamingConventions - 9.methods
+ImplicitSwitchFallThrough - 7.8
+CloneMethodMustBePublic - The java Manual says "By convention, classes that implement this interface should override Object.clone (which is protected) with a public method.
+AvoidMessageDigestField - Not applicable.
+UncommentedEmptyConstructor - Not applicable.
+UnusedLocalVariable - Not applicable.
+NoPackage - 3.1 (Assumption that they must have a package)
+LooseCoupling - Not applicable.
+FinalFieldCouldBeStatic - Not applicable.
+SimplifyConditional - Not applicable.
+MissingOverride - Not applicable.
+GuardLogStatement - Not applicable.
+PreserveStackTrace - Not applicable.
+SwitchStmtsShouldHaveDefault - 7.8
+UnusedFormalParameter - Not applicable.
+CloneMethodReturnTypeMustMatchClassName - Not applicable.
+NonThreadSafeSingleton - Not applicable.
+CompareObjectsWithEquals - Not applicable.
+UnsynchronizedStaticFormatter - Not applicable.
+EmptySynchronizedBlock - Not applicable.
+UnnecessaryImport - Not applicable.
+DoNotCallGarbageCollectionExplicitly - Not applicable.
+UseNotifyAllInsteadOfNotify - Not applicable.
+EmptyStatementBlock - Not applicable.
+UnnecessaryLocalBeforeReturn - 7.3(Close but NOT APPLICABLE)
+UnnecessaryFullyQualifiedName - 9.variables (Short and meaningful, NOT applicable)
+SimplifiableTestAssertion - Not applicable.
+SingletonClassReturningNewInstance - Not applicable.
+GenericsNaming - Not applicable.
+EqualsNull - Not applicable.
+CloseResource - Not applicable.
+SimplifyBooleanReturns - 7.3(Accepted due to example)
+SingleMethodSingleton - Not applicable.
+OneDeclarationPerLine - 6.1
+EmptyStatementNotInLoop - Not applicable.
+PackageCase - 9.packages
+LogicInversion - Not applicable.
+ConstantsInInterface - Not applicable.
+AvoidStringBufferField - Not applicable.
