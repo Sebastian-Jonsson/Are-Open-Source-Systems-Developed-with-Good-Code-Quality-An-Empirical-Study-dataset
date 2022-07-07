@@ -1,0 +1,5 @@
+Class_Location,Class_Length,CheckStyle_Amount,PMD_Amount,SCAX_Amount,SpotBugs_Amount,Total_Amount
+CoasterCosmetics-master\CoasterCosmetics-master\src\main\java\net\godlyMark\cosmetics\inventory\InvItem.java,22,17,1,1,0,19
+CoasterCosmetics-master\CoasterCosmetics-master\src\main\java\net\godlyMark\cosmetics\inventory\Gui.java,68,70,10,1,0,81
+CoasterCosmetics-master\CoasterCosmetics-master\src\main\java\net\godlyMark\cosmetics\command\Command.java,0,104,3,14,0,121
+CoasterCosmetics-master\CoasterCosmetics-master\src\main\java\net\godlyMark\cosmetics\Main.java,45,16,3,2,0,21

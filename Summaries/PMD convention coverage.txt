@@ -1,4 +1,5 @@
 Convention coverage summary:
+
 3.1(Assumption that must have a package)
 5.1.1(Only checks if method is empty as well)
 6.1
@@ -18,18 +19,18 @@ ProperCloneImplementation - Not applicable.
 DoubleCheckedLocking - Not applicable.
 AvoidCatchingThrowable - Not applicable.
 AvoidProtectedMethodInFinalClassNotExtending - Not applicable.
-EmptyFinallyBlock - 7.9
+EmptyFinallyBlock - 7.9, 
 ForLoopShouldBeWhileLoop - Not applicable.
 AvoidDollarSigns - Not applicable.
-EmptyIfStmt - 7.4
+EmptyIfStmt - 7.4, 
 UselessOverridingMethod - Not applicable.
 MissingStaticMethodInNonInstantiatableClass - Not applicable.
 UnnecessaryConstructor - Not applicable. 11.1?
 AvoidAccessibilityAlteration - Not applicable.
-EmptyWhileStmt - 7.6
+EmptyWhileStmt - 7.6, 
 LocalVariableNamingConventions - 9.variables
 ClassNamingConventions - 9.classes, 9.interfaces,
-UnconditionalIfStatement - 7.4 - always true/false
+UnconditionalIfStatement - 7.4,  - always true/false
 UseStandardCharsets - Not applicable.
 UnnecessaryConversionTemporary - Not applicable.
 UnusedPrivateField - Not applicable.
@@ -37,7 +38,7 @@ ReturnFromFinallyBlock - return is a statement which is allowed.
 CheckSkipResult - Not applicable.
 UseLocaleWithCaseConversions - Not applicable.
 DoubleBraceInitialization - Not applicable.
-DefaultLabelNotLastInSwitchStmt - 7.8
+DefaultLabelNotLastInSwitchStmt - 7.8, 
 FinalParameterInAbstractMethod - Not applicable.
 JumbledIncrementer - Not applicable.
 SingularField - Not applicable.
@@ -50,7 +51,7 @@ DontUseFloatTypeForLoopIndices - Not applicable.
 AvoidUsingVolatile - Not applicable.
 UselessParentheses - Not applicable.
 SimplifiedTernary - 10.5.2, 7.3
-ControlStatementBraces - 7.2, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9
+ControlStatementBraces - 7.2, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9, 
 AssignmentInOperand - Not applicable.
 AvoidBranchingStatementAsLastInLoop - Not applicable.
 InstantiationToGetClass - Not applicable.
@@ -104,7 +105,7 @@ SimplifyConditional - Not applicable.
 MissingOverride - Not applicable.
 GuardLogStatement - Not applicable.
 PreserveStackTrace - Not applicable.
-SwitchStmtsShouldHaveDefault - 7.8
+SwitchStmtsShouldHaveDefault - 7.8, 
 UnusedFormalParameter - Not applicable.
 CloneMethodReturnTypeMustMatchClassName - Not applicable.
 NonThreadSafeSingleton - Not applicable.
@@ -124,7 +125,7 @@ EqualsNull - Not applicable.
 CloseResource - Not applicable.
 SimplifyBooleanReturns - 7.3(Accepted due to example)
 SingleMethodSingleton - Not applicable.
-OneDeclarationPerLine - 6.1
+OneDeclarationPerLine - 6.1, 
 EmptyStatementNotInLoop - Not applicable.
 PackageCase - 9.packages
 LogicInversion - Not applicable.
